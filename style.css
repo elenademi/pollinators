@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.content{
+    padding-left: 1em;
+    padding-right: 1em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(248, 255, 226);
+    
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: -webkit-linear-gradient(rgb(234, 215, 249),rgb(232, 252, 164) );
+    width: 100%;
+    color: darkgreen;
+    
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+margin-left: 2em;
+        font-weight: 700;
+        font-size: 1.35rem;
+        text-transform: lowercase;
+}
+ nav a {
+    color: #8554f1;
+    text-decoration: none;
+}
+
+ nav a:hover, a:focus{
+    text-decoration: underline;
+    color: #5f20e6;
+} 
+a.resources{
+    display:inline;
+    color: #8554f1;
+    text-decoration: none;}
+
+ a.resources:hover, a.resources:focus 
+    {text-decoration: underline;
+    color: #5f20e6;}
+
+.mainImage {max-width: 100%;
+display:block;
+margin-bottom: 1em;}
+
+p{ 
+    padding: 1em 0 1em 0;
+    margin:0;
+}
+
+.plant-gallery, .resources{
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+.gallery{
+    display: block;
+    max-width: 90%;
+}
+
+/*Typography*/
+body{
+    font-family:  'Cormorant Infant', serif;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    line-height: 1.6;}
+
+h2{
+    color:#5f20e6;
+}
+footer{
+    
+    background-image: -webkit-linear-gradient(rgb(234, 215, 249),rgb(232, 252, 164) );
+    width: 100%;
+    color: darkgreen;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+   
+   
+    
+    
+}
+ 
+
+
+/*media queries*/
+
+@media (min-width: 800px) { p {max-width:70%;}
+
+.gallery{max-width: 70%; }
+
+.content{width: 90%;
+    max-width: 1200px;
+
+}
+nav ul{
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
+nav{ margin-left: -1em;}}
+
+    
